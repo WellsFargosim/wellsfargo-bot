@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: wells-fargo-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python main.py"
+    repo: https://github.com/WellsFargosim/wellsfargo-bot
+    branch: main
